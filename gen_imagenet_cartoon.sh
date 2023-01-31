@@ -8,4 +8,4 @@
 #SBATCH --ntask=1
 
 cd src-imagenet-cartoon
-python3 --load_folder /home/a09v98/imagenet/validation --save_folder ../datasets/imagenet-cartoon
+python3 --load_folder /home/a09v98/imagenet/validation --save_folder /home/a09v98/Projects/datasets/imagenet-cartoon
