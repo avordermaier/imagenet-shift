@@ -8,6 +8,6 @@
 #SBATCH --ntasks=1
 
 cd src-imagenet-drawing
-python3 drawing.py --load_folder /home/a09v98/imagenet/validation --save_folder /home/a09v98/Projects/data/imagenet-drawing2/validation --drawing-pattern drawing-patterns/drawing-pattern-II.jpg
-python3 drawing.py --load_folder /home/a09v98/imagenet/validation --save_folder /home/a09v98/Projects/data/imagenet-drawing3/validation --drawing-pattern drawing-patterns/drawing-pattern-III.png
-python3 drawing.py --load_folder /home/a09v98/imagenet/validation --save_folder /home/a09v98/Projects/data/imagenet-drawing4/validation --drawing-pattern drawing-patterns/drawing-pattern-IV.jpg
+python3 drawing.py --load_folder /home/a09v98/imagenet/validation --save_folder /home/a09v98/Projects/data/imagenet-drawing2/validation --drawing-pattern /home/a09v98/Projects/imagenet-shift/src-imagenet-drawing/drawing-patterns/drawing-pattern-II.jpg
+python3 drawing.py --load_folder /home/a09v98/imagenet/validation --save_folder /home/a09v98/Projects/data/imagenet-drawing3/validation --drawing-pattern /home/a09v98/Projects/imagenet-shift/src-imagenet-drawing/drawing-patterns/drawing-pattern-III.png
+python3 drawing.py --load_folder /home/a09v98/imagenet/validation --save_folder /home/a09v98/Projects/data/imagenet-drawing4/validation --drawing-pattern /home/a09v98/Projects/imagenet-shift/src-imagenet-drawing/drawing-patterns/drawing-pattern-IV.jpg
