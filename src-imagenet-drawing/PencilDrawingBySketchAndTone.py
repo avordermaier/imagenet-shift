@@ -131,7 +131,7 @@ def gen_tone_map(img, w_group=0):
         argmin_dist = np.argmin(dist)
         lut[v] = argmin_dist
     lut_normalized = lut / num_pixel_vals
-    J = lut_normalized[(255 * img).astype(np.int)]
+    J = lut_normalized[(255 * img).astype(int)]
     # smooth:
     J_smoothed = filters.gaussian(J, sigma=np.sqrt(2))
     return J_smoothed
